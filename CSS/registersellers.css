@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+* {
+margin: 0;
+padding: 0;
+}
+    
+body, html {
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+right: 0;
+overflow-x: hidden;
+background-color: white;
+}
+
+.registertext {
+position: relative;
+top: 100px;
+left: 0px;    
+font-size: 23px;
+font-family: 'Secular One';
+text-align: center;
+background-color: transparent;
+}
+
+.div {
+position: relative;
+width: 500px;
+height: 2px;
+top: 70px;
+left: 710px;
+color: black;
+border-radius: 20px;
+background-color: black;
+box-shadow: 0.07cm 0.07cm 0.18cm rgba(0, 0, 0, 0.5);
+}
+
+.loginworker {
+position: relative;
+top: 700px;
+font-size: 16px;
+font-family: 'Quicksand';
+text-align: center;
+background-color: transparent; 
+}
+
+.btnlogin {
+position: relative;
+width: 50px;
+height: 25px;
+background-color: transparent;
+border: transparent;
+color: rgb(8, 89, 182);
+font-family: 'Quicksand';
+font-weight: bold;
+text-align: center;
+font-size: 16px;
+}
+
+#btnlogin:hover {
+text-decoration: underline;
+color: rgb(8, 68, 138);
+cursor: pointer;
+}
+
+.reset {
+position: relative;
+top: 700px;
+left: 10px;
+font-size: 16px;
+font-family: 'Quicksand';
+text-align: center;
+background-color: transparent; 
+}
+
+.resetpassword {
+position: relative;
+width: 130px;
+height: 25px;
+right: 2px;
+background-color: transparent;
+border: transparent;
+color: rgb(8, 89, 182);
+font-family: 'Quicksand';
+font-weight: bold;
+text-align: center;
+font-size: 16px;
+}
+
+#resetpassword:hover {
+text-decoration: underline;
+color: rgb(8, 68, 138);
+cursor: pointer;
+}
+
+.registername {
+position: relative;
+width: 300px;
+height: 45px;
+left: 600px;
+top: 150px;
+text-align: center;
+font-family: 'Quicksand';
+font-weight: bold;
+font-size: 17px;
+background-color: transparent;
+border-color: black;
+border-radius: 30px;
+}
+
+.textname {
+position: relative;
+top: 165px;
+left: 620px;
+font-family: 'Roboto';
+background-color: transparent;
+}
+
+.registerlastname {
+position: relative;
+width: 300px;
+height: 45px;
+top: 150px;
+left: 650px;
+text-align: center;
+font-family: 'Quicksand';
+font-weight: bold;
+font-size: 17px;
+background-color: transparent;
+border-color: black;
+border-radius: 30px;
+}
+
+.textlastname {
+position: relative;
+top: 148px;
+left: 980px;
+font-family: 'Roboto';
+background-color: transparent;
+}
+
+.registercpf {
+position: relative;
+width: 300px;
+height: 45px;
+left: 600px;
+top: 170px;
+text-align: center;
+font-family: 'Quicksand';
+font-weight: bold;
+font-size: 17px;
+background-color: transparent;
+border-color: black;
+border-radius: 30px;
+}
+
+.textcpf {
+position: relative;
+top: 187px;
+left: 621px;
+font-family: 'Roboto';
+background-color: transparent;
+}
+
+.registeremail {
+position: relative;
+width: 300px;
+height: 45px;
+top: 170px;
+left: 450px;
+text-align: center;
+font-family: 'Quicksand';
+font-weight: bold;
+font-size: 17px;
+background-color: transparent;
+border-color: black;
+border-radius: 30px;
+}
+
+.textemail {
+position: relative;
+top: 186px;
+left: 472px;
+font-family: 'Roboto';
+font-weight: bold;
+background-color: transparent;
+}
+
+.registerrg {
+position: relative;
+width: 300px;
+height: 45px;
+left: 650px;
+top: 170px;
+text-align: center;
+font-family: 'Quicksand';
+font-weight: bold;
+font-size: 17px;
+background-color: transparent;
+border-color: black;
+border-radius: 30px;
+}
+
+.textrg {
+position: relative;
+top: 170px;
+left: 980px;
+font-family: 'Roboto';
+background-color: transparent;
+}
+
+.registerpassword {
+position: relative;
+width: 300px;
+height: 45px;
+top: 170px;
+left: 470px;
+text-align: center;
+font-family: 'Quicksand';
+font-weight: bold;
+font-size: 17px;
+background-color: transparent;
+border-color: black;
+border-radius: 30px;
+}
+
+.textpassword {
+position: relative;
+top: 168px;
+left: 800px;
+font-family: 'Roboto';
+background-color: transparent;
+}
+
+.office {
+position: relative;
+left: 225px;
+top: 170px;
+width: 300px;
+height: 45px;
+text-align: center;
+font-family: 'Quicksand';
+border-width: 2px;
+font-weight: 700;
+cursor: pointer;
+font-size: 17px;
+border-radius: 30px;
+border-color: black;
+background-color: transparent;
+}
+
+.textoffice {
+position: relative;
+left: 1125px;
+top: 258px;
+font-family: 'Roboto';
+padding-bottom: 50px;
+background-color: transparent;
+}
+    
+.register {
+position: relative;
+width: 130px;
+height: 50px;
+top: 290px;
+left: 200px;
+font-family: 'Quicksand';
+font-size: 15px;
+font-weight: bold;
+border-color: black;
+border-radius: 25px;
+background-color: transparent;
+}
+
+#register:hover {
+cursor: pointer;
+box-shadow: 0.03cm 0.03cm 0.15cm rgba(0, 0, 0, 0.192);
+}
+
+.cancel {
+position: relative;
+width: 130px;
+height: 50px;
+top: 290px;
+left: 210px;
+font-family: 'Quicksand';
+font-size: 15px;
+font-weight: bold;
+border-color: black;
+border-radius: 25px;
+background-color: transparent;
+}
+
+#cancel:hover {
+cursor: pointer;
+box-shadow: 0.03cm 0.03cm 0.15cm rgba(0, 0, 0, 0.192);
+}
