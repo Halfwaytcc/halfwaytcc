@@ -1,0 +1,3 @@
+﻿"usuario_id","usuario_nome","usuario_email","usuario_senha"
+1,"teste20","teste2@gmail.com","$2y$10$v2BeZjp6wV5uexCu7YLCsODv6OXaNjBLgvQdrhRdWhZ18E2dUXdYu"
+2,"teste30","teste3@gmail.com","$2y$10$lOI55jWpi/UhEzMnckIaFOUla9BkUAT6BbNqR3QcvkEvORcKlrNDy"

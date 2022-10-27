@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.formu-con{
+    background-color: #e2e2e2;
+    justify-content: center;
+    border-radius: 2vh;
+    height: 75vh;
+    border: solid 0px #272727;
+    padding: 4vh;
+    margin-left: 80vh;
+    max-width: 45vh;
+    margin-top: 10vh;
+
+}
+
+.Texto{
+    position: relative;
+    border-radius: 1vh;
+    padding: 1.5vh;
+    width: 30vh;
+    border: solid #272727 0px;
+    margin-left: 7vh;
+    font-size: 2vh;
+    outline: none;
+    margin-bottom: 3vh;
+    right: 4vh;
+}
+
+.Texto2{
+    position: relative;
+    border-radius: 1vh;
+    padding: 1.5vh;
+    width: 30vh;
+    height: 5vh;
+    border: solid #272727 0px;
+    margin-left: 7vh;
+    font-size: 2vh;
+    outline: none;
+    margin-bottom: 3vh;
+    right: 4vh;
+}
+
+
+.bt{
+    position: absolute;
+    padding: 2vh;
+    display: flex;
+    margin-left: 10.5vh;
+    margin-top: 2vh;
+    justify-content: center;
+    width: 15vh;
+    border: solid #272727 0px;
+    border-radius: 1vh;
+    font-size: 1.5vh;
+    transition: all 0.25s;
+}
+
+.bt:hover{
+    transform: translate(0.2s);
+    color: white;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-left: 25vh;
+    display: flex;
+}
+
+.btn-outline{
+    color: #272727;
+    background-color: transparent;
+    background-image: none;
+    border-color: #272727;
+}
+
+.btn:hover{
+    background-color: #272727;
+}
+
+.btn-outline:hover{
+    border-color: #272727;
+    color: #f0f0f0;
+}

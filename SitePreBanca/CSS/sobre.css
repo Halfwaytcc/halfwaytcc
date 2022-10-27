@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.nav-link{
+    margin-left: 25vh;
+    display: flex;
+}
+
+.btn-outline{
+    color: #272727;
+    background-color: transparent;
+    background-image: none;
+    border-color: #272727;
+}
+
+.btn:hover{
+    background-color: #272727;
+}
+
+.btn-outline:hover{
+    border-color: #272727;
+    color: #f0f0f0;
+}

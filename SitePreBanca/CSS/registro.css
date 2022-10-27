@@ -1,0 +1,166 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:  hidden;
+}
+
+.RegistroArea{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Registro{
+    background-color: #d4d4d4;
+    border-radius: 2vh;
+    border: solid #272727;
+    padding: 6vh;
+}
+
+.Registro form{
+    margin-top: 1vh;
+}
+
+.CaixaTexto{
+    position: relative;
+    border-radius: 5vh;
+    padding: 2vh;
+    width: 30vh;
+    border: none;
+    font-size: 2vh;
+    outline: none;
+    border: solid #272727;
+    bottom: 3vh;
+    margin-bottom: 3vh;
+}
+
+.Registro p{
+    color: #272727;
+    font-size: 5vh;
+    left: 0.5vh;
+    bottom: 2vh;
+}
+
+.ButEnviar{
+    padding: 2vh;
+    margin-left: 7vh;
+    margin-top: 2vh;
+    width: 20vh;
+    border: solid #272727;
+    border-radius: 7px;
+    font-size: 25px;
+    transition: all .6s;
+}
+.ButEnviar:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #272727;
+}
+
+.TextoRegistro{
+    position: relative;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-size: 75px;
+}
+
+.voltarMenu{
+    position: absolute;
+    color: black;
+    font-size: 5vh;
+    font-weight: lighter;
+    text-decoration: none;
+    right: 200vh;
+    bottom: 50vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+
+    .Registro{
+        background-color: #d4d4d4;
+        border-radius: 2vh;
+        border: solid #272727;
+        padding: 6vh;
+    }
+    
+    .Registro form{
+        margin-top: 1vh;
+    }
+    
+    .CaixaTexto{
+        position: relative;
+        border-radius: 5vh;
+        padding: 2vh;
+        width: 30vh;
+        border: none;
+        font-size: 2vh;
+        outline: none;
+        border: solid #272727;
+        bottom: 3vh;
+        margin-bottom: 3vh;
+    }
+    
+    .Registro p{
+        color: #272727;
+        font-size: 5vh;
+        left: 0.5vh;
+        bottom: 2vh;
+    }
+    
+    .ButEnviar{
+        padding: 2vh;
+        margin-left: 7vh;
+        margin-top: 2vh;
+        width: 20vh;
+        border: solid #272727;
+        border-radius: 7px;
+        font-size: 25px;
+        transition: all .6s;
+    }
+    .ButEnviar:hover{
+        cursor: pointer;
+        color: white;
+        background-color: #272727;
+    }
+    
+    .TextoRegistro{
+        position: relative;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        font-size: 75px;
+    }
+    
+    .voltarMenu{
+        position: absolute;
+        color: black;
+        font-size: 5vh;
+        font-weight: lighter;
+        text-decoration: none;
+        right: 100vh;
+        bottom: 50vh;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1400px){
+    
+    .voltarMenu{
+        position: absolute;
+        color: black;
+        font-size: 5vh;
+        font-weight: lighter;
+        text-decoration: none;
+        right: 120vh;
+        bottom: 50vh;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+}

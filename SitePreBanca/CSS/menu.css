@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.Menu-P{
+    background-color: #f0f0f0;
+    border-bottom: solid #272727 0.4vh;
+}
+
+.Menu{
+    list-style: none;
+    max-width: 140vh;
+}
+
+.Menu li{
+    display: inline;
+    align-items: center;
+}
+
+.Menu-li{
+    text-decoration: none;
+    color: #272727;
+    padding: 4vh;
+    display: inline-block;
+    font-size: 3vh;
+}
+
+.Nuzin{
+    text-decoration: none;
+    padding: 4.3vh;
+    margin-left: 17vh;
+    color: #272727;
+    transition: background .6s;
+}
+
+.Nuzin:hover{
+    background-color: #272727;
+    color: #f0f0f0;
+}
+
+.Login{
+    float: right;
+    background-color: #272727;
+    color: #f0f0f0;
+    border-radius: 0.8vh;
+    padding: 1.5vh;
+    width: 13vh;
+    margin-top: 2.5vh;
+    font-size: 3vh;
+    text-align: center;
+    border: solid #f0f0f0;
+    transition: all .7s;
+    text-decoration: none;
+}
+
+.Login:hover{
+    background-color: #f0f0f0;
+    color: #272727;
+    border: solid 2px #272727;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 10vh;
+    font-family: Robo;
+    font-size: 5vh;
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 200vh;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.conteiner .card{
+    width: 40vh;
+    height: 45vh;
+    border-radius: 2vh;
+    box-shadow: 0 0.5vh 0.5vh rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 7vh;
+    text-align: center;
+    transition: all 0.25s;
+    font-size: 2.5vh;
+}
+
+.conteiner .card:hover{
+    transform: translateY(-7vh);
+    box-shadow: 0 8vh 10vh rgba(0, 0, 0, 0.2);
+}
+
+.conteiner .card img{
+    width: 40vh;
+    height: 30vh;
+    border-radius: 2vh;
+}
+
+.conteiner .card p{
+    padding: 0 1rem;
+}
+
+.conteiner .card a{
+    color: #272727;
+    text-decoration: none;
+    transition: all 0.20s;
+}
+
+.conteiner .card a:hover{
+    transform: translate(-10vh);
+    border-bottom: solid #272727;
+    border-radius: 0.5vh;
+}
+
+.Logo{
+    float: left;
+    margin-left: 10vh;
+    margin-top: 1vh;
+}
+
+.titulosobre{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 6vh;
+}
+
+.textosobre{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 160vh;
+    margin-bottom: 8vh;
+}
+
+.linha{
+    margin-bottom: 4vh;
+}
+
+.contatotitulo{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 600vh;
+}
+
+.botao-voltar{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: hidden;
+}
+
+.botao-voltar.visible{
+    visibility: visible;
+}
+
+.nav-link{
+    margin-left: 25vh;
+    display: flex;
+}
+
+.btn-outline{
+    color: #272727;
+    background-color: transparent;
+    background-image: none;
+    border-color: #272727;
+}
+
+.btn:hover{
+    background-color: #272727;
+}
+
+.btn-outline:hover{
+    border-color: #272727;
+    color: #f0f0f0;
+}

@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:  hidden;
+}
+
+.login-box{
+    display: flex;
+    margin-top: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.formu{
+    background-color: #e2e2e2;
+    justify-content: center;
+    border-radius: 2vh;
+    height: 50vh;
+    border: solid 0px #272727;
+    padding: 4vh;
+    margin-left: 80vh;
+}
+
+.formu-ca{
+    background-color: #e2e2e2;
+    justify-content: center;
+    border-radius: 2vh;
+    height: 62vh;
+    border: solid 0px #272727;
+    padding: 4vh;
+    margin-left: 80vh;
+}
+
+.LoginT{
+    width: 33vh;
+    display: flex;
+    margin-left: 1.5vh;
+    margin-bottom: 3vh;
+    font-size: 4vh;
+}
+
+
+.textinho{
+    position: relative;
+    border-radius: 1vh;
+    padding: 2vh;
+    width: 30vh;
+    border: solid #272727 0px;
+    margin-left: 7vh;
+    font-size: 2vh;
+    outline: none;
+    margin-bottom: 3vh;
+    right: 4vh;
+}
+
+.login p{
+    color: #272727;
+}
+
+.bt{
+    padding: 2vh;
+    display: flex;
+    margin-left: 10.5vh;
+    margin-top: 2vh;
+    justify-content: center;
+    width: 15vh;
+    border: solid #272727 0px;
+    border-radius: 1vh;
+    font-size: 1.7vh;
+    transition: all 0.25s;
+}
+
+.bt:hover{
+    transform: translate(0.2s);
+    color: white;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+.TextoDeBaixo{
+    margin-top: 2vh;
+    margin-left: 5vh;
+    font-size: 2vh;
+}
+
+.LinkTexto{
+    color: #0095eb;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 9vh;
+}
+
+.LinkTexto:hover{
+    color: #001aff;
+    border-bottom: solid #001aff;
+    border-width: 0.3vh;
+    font-size: 1.8vh;
+}
+
+.TextoLogin{
+    position: relative;
+    margin-top: 0%;
+    margin-left: 12vh;
+    font-size: 5vh;
+}
+
+.voltar{
+    position: absolute;
+    color: black;
+    font-size: 5vh;
+    font-weight: lighter;
+    text-decoration: none;
+    right: 200vh;
+    bottom: 50vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link-cad{
+    color: #272727;
+    text-decoration: none;
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 13.5vh;
+}
+
+.link-cad:hover{
+    color: #001aff;
+    text-decoration: none;
+}
+
+.link-log{
+    color: #272727;
+    text-decoration: none;
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 16vh;
+    font-size: 2vh;
+}
+
+.link-log:hover{
+    color: #001aff;
+    text-decoration: none;
+}
+
+.nav-link{
+    margin-left: 23vh;
+    display: flex;
+}
+
+.btn-outline{
+    color: #272727;
+    background-color: transparent;
+    background-image: none;
+    border-color: #272727;
+}
+
+.btn:hover{
+    background-color: #272727;
+}
+
+.btn-outline:hover{
+    border-color: #272727;
+    color: #f0f0f0;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+    .TextoLogin{
+        position: relative;
+        margin-top: 0%;
+        margin-left: 11vh;
+        margin-bottom: 6%;
+        font-size: 4vh;
+    }
+
+    .login p{
+        color: #272727;
+    }
+    
+
+    .textinho{
+        position: relative;
+        border-radius: 5vh;
+        padding: 2vh;
+        
+        width: 27vh;
+        border: none;
+        margin-left: 6vh;
+        font-size: 2vh;
+        outline: none;
+        margin-bottom: 3vh;
+        right: 4vh;
+    }
+
+    .bt{
+        padding: 1vh;
+        margin-left: 10vh;
+        margin-top: 1vh;
+        width: 15vh;
+        border: none;
+        border-radius: 1vh;
+        font-size: 25px;
+    }
+
+    .bt:hover{
+        color: white;
+        background-color: #272727;
+        cursor: pointer;
+    }
+    
+    .TextoDeBaixo{
+        margin-top: 6vh;
+        margin-left: 5vh;
+        font-size: 2vh;
+    }
+    
+
+
+    .login{
+        background-color: #d4d4d4;
+        border-radius: 2vh;
+        border: solid #272727;
+        padding: 4.5vh;
+    }
+
+    .voltar{
+        position: absolute;
+        color: black;
+        font-size: 5vh;
+        font-weight: lighter;
+        text-decoration: none;
+        right: 200vh;
+        bottom: 50vh;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .LinkTexto{
+        color: #0095eb;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 10.5vh;
+    }
+    
+    .LinkTexto:hover{
+        color: #001aff;
+        border-bottom: solid #001aff;
+        border-width: 0.3vh;
+        font-size: 2.1vh;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1400px){
+    .TextoLogin{
+        position: relative;
+        margin-top: 0%;
+        margin-left: 13vh;
+        margin-bottom: 6%;
+        font-size: 5vh;
+    }
+
+    .textinho{
+        position: relative;
+        border-radius: 5vh;
+        padding: 2vh;
+        width: 33vh;
+        border: solid #000000 0px;
+        margin-left: 6vh;
+        font-size: 2vh;
+        outline: none;
+        margin-bottom: 3vh;
+        right: 3vh;
+    }
+
+    .butao{
+        padding: 1vh;
+        margin-left: 14vh;
+        margin-top: 1vh;
+        width: 15vh;
+        border: solid #272727;
+        border-width: 0.4vh;
+        border-radius: 1vh;
+        font-size: 3vh;
+    }
+
+    .butao:hover{
+        color: white;
+        background-color: #272727;
+        cursor: pointer;
+    }
+    
+    .TextoDeBaixo{
+        margin-left: 5vh;
+        font-size: 2.3vh;
+    }
+    
+
+
+    .login{
+        background-color: #d4d4d4;
+        border-radius: 2vh;
+        border: solid #272727;
+        border-width: 0.4vh;
+        padding: 4.5vh;
+    }
+
+    .voltar{
+        position: absolute;
+        color: rgba(17, 17, 17, 0.747);
+        font-size: 5vh;
+        font-weight: lighter;
+        text-decoration: none;
+        right: 200vh;
+        bottom: 50vh;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    .LinkTexto{
+        color: #0095eb;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 10.5vh;
+    }
+    
+    .LinkTexto:hover{
+        color: #001aff;
+        border-bottom: solid #001aff;
+        border-width: 0.3vh;
+        font-size: 2.1vh;
+    }
+}
